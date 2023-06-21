@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+th {
+  background-color: #f2f2f2;
+}
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+.pagination button:hover {
+  background-color: #e0e0e0;
+}
+.pagination button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
